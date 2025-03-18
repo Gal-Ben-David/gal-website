@@ -24,14 +24,6 @@ h2 {
         color: $clr-font-gray6;
     }
 
-    .projects & {
-        padding-inline-start: 2.4em;
-
-        @include for-mobile-layout {
-            padding-inline-start: 0;
-        }
-    }
-
     &.title {
         font-family: 'noto-sans-regular';
     }
@@ -57,7 +49,7 @@ h3 {
 h4 {
     .small-card-details & {
         font-size: .9rem;
-        font-family: 'noto-sans-light';
+        font-family: 'roboto-light';
     }
 }
 
@@ -72,6 +64,10 @@ p {
 
     .about & {
         color: $clr-font-gray7;
+    }
+
+    &.tech-stack {
+        font-family: 'roboto-medium';
     }
 }
 

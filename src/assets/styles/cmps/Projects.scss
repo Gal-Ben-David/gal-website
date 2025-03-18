@@ -1,7 +1,6 @@
 .projects {
     display: grid;
     justify-content: center;
-    // justify-self: center;
     gap: 1.3em;
 
     position: relative;
@@ -10,13 +9,17 @@
     background-color: $clr-bg-beige-2;
     overflow-x: hidden;
 
+    .projects-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .projects-list {
         display: flex;
-        justify-content: space-around;
-
+        gap: 4em;
 
         @include for-mobile-layout {
-            gap: 4em;
             flex-direction: column;
         }
 
