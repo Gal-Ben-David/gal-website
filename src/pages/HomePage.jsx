@@ -8,7 +8,7 @@ import { Footer } from "../cmps/Footer";
 export function HomePage() {
 
     return (
-        <main className="main-layout homepage">
+        <main className="full homepage">
             <Intro />
             <About />
             <Projects />

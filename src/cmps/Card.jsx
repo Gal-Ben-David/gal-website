@@ -7,12 +7,15 @@ export function Card() {
 
                 <div className="links">
                     <button className="btn btn-light download-btn">Get my resume</button>
-                    <a href="https://github.com/Gal-Ben-David" target="_blank">
-                        <img className="github-icon" src="https://res.cloudinary.com/dvykycdey/image/upload/v1742227702/github_rpsf75.png" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/gal-ben-david-202158233/" target="_blank">
-                        <img className="linkedin-icon" src="https://res.cloudinary.com/dvykycdey/image/upload/v1742227701/linkedin_ljazpx.png" />
-                    </a>
+
+                    <div className="social-media-links">
+                        <a href="https://github.com/Gal-Ben-David" target="_blank">
+                            <img className="github-icon" src="https://res.cloudinary.com/dvykycdey/image/upload/v1742227702/github_rpsf75.png" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/gal-ben-david-202158233/" target="_blank">
+                            <img className="linkedin-icon" src="https://res.cloudinary.com/dvykycdey/image/upload/v1742227701/linkedin_ljazpx.png" />
+                        </a>
+                    </div>
                 </div>
 
             </div>

@@ -5,7 +5,15 @@
     position: relative;
 
     width: 75vw;
-    max-width: 25em;
+    max-width: 20em;
+
+    @include for-mobile-layout {
+        width: 70vw;
+        max-width: 15em;
+
+    }
+
+
     padding: 2em;
     border-radius: 1.5em;
 
@@ -22,11 +30,17 @@
     }
 
     .links {
-        display: flex;
+        display: grid;
         gap: 1em;
         align-items: center;
         margin-block-start: 2.5em;
         justify-content: center;
+
+        .social-media-links {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
     }
 
     transition: 1s ease;

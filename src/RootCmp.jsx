@@ -4,7 +4,10 @@ import './assets/styles/style.scss'
 function RootCmp() {
 
   return (
-    <HomePage />
+    <main className="main-layout">
+      <HomePage />
+    </main>
+
   )
 }
 
