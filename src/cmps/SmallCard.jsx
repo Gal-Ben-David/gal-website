@@ -9,7 +9,7 @@ export function SmallCard({ item }) {
             <div className="small-card-details">
                 <h3>{item.title}</h3>
                 <h4>{item.location}</h4>
-                {item.text && <span style={{ fontFamily: 'mukta-medium' }}>{item.text}</span>}
+                {item.text && <span style={{ fontFamily: 'noto-sans-medium' }}>{item.text}</span>}
             </div>
         </section>
     )

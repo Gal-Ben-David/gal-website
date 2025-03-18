@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'mukta-regular';
+    font-family: 'noto-sans-regular';
     color: $clr-font-gray7;
 }
 
@@ -16,6 +16,7 @@ h6 {
 h2 {
     .card & {
         font-size: 2rem;
+        margin-block-end: .3em;
     }
 
     .about & {
@@ -23,10 +24,21 @@ h2 {
     }
 }
 
+h3 {
+    .projects & {
+        margin-block-end: .8em;
+    }
+
+    .small-card-details & {
+        line-height: 1.7;
+        font-size: 1rem;
+    }
+}
+
 h4 {
     .small-card-details & {
         font-size: .9rem;
-        font-family: 'mukta-light';
+        font-family: 'noto-sans-light';
     }
 }
 
@@ -37,6 +49,7 @@ hr {
 
 p {
     margin: 0;
+    line-height: 1.6;
 
     .about & {
         color: $clr-font-gray7;

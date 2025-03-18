@@ -1,19 +1,24 @@
 @font-face {
-    font-family: 'mukta-regular';
-    src: url('/font/Mukta/Mukta-Regular.ttf');
-}
-
-@font-face {
     font-family: 'mukta-light';
     src: url('/font/Mukta/Mukta-Light.ttf');
 }
 
 @font-face {
-    font-family: 'mukta-medium';
-    src: url('/font/Mukta/Mukta-Medium.ttf');
+    font-family: 'noto-sans-regular';
+    src: url('/font/Noto_Sans/NotoSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'mukta-extra-bold';
-    src: url('/font/Mukta/Mukta-ExtraBold.ttf');
+    font-family: 'noto-sans-medium';
+    src: url('/font/Noto_Sans/NotoSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'noto-sans-bold';
+    src: url('/font/Noto_Sans/NotoSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'noto-sans-light';
+    src: url('/font/Noto_Sans/NotoSans-Light.ttf');
 }
