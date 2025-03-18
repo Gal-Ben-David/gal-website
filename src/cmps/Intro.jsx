@@ -10,7 +10,16 @@ export function Intro() {
 
     return (
         <section className="introduction full">
-            <img className={`logo ${visible ? 'fade-in' : ''}`} src="https://res.cloudinary.com/dvykycdey/image/upload/v1742227632/gal-logo4_od7n2b.png" />
+            <header className="header">
+                <img className={`logo ${visible ? 'fade-in' : ''}`} src="https://res.cloudinary.com/dvykycdey/image/upload/v1742227632/gal-logo4_od7n2b.png" />
+
+                <nav className="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#hobbies">Hobbies</a>
+                </nav>
+            </header>
+
             <Card visible={visible} />
         </section>
     )

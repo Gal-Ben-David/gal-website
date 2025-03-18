@@ -9,6 +9,27 @@
 
     background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/v1742221832/gal-intro-main-cover_db5cip.jpg');
 
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 90%;
+
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        z-index: 3;
+
+        .nav-links {
+            display: flex;
+            gap: 1em;
+
+        }
+    }
+
     .logo {
         opacity: 0.2;
 

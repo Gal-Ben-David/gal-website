@@ -30,7 +30,7 @@ export function Hobbies() {
 
 
     return (
-        <section className="hobbies">
+        <section id="hobbies" className="hobbies">
             <h2 className="section-name title">My Hobbies</h2>
             <ul className="hobbies-list">
                 {hobbiesList.map((item, i) =>

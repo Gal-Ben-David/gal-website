@@ -38,7 +38,7 @@ export function About() {
     ]
 
     return (
-        <section className="about">
+        <section id="about" className="about">
             <article className="summary">
                 <div className="summary-details">
                     <img src="https://res.cloudinary.com/dvykycdey/image/upload/v1742227790/photo2_rvk4rr.png" />
