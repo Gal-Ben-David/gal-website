@@ -60,6 +60,7 @@
         left: 50%;
         transform: translateX(-50%);
 
+        font-family: 'fuzzy-bubbles-regular';
         width: 20em;
         font-size: 1rem;
         // font-family: 'reenie-beanie-regular';
@@ -67,7 +68,7 @@
         color: $clr-font-gray1;
 
         @include for-mobile-layout {
-            bottom: -100px;
+            bottom: -130px;
         }
     }
 
