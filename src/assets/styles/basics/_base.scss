@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    // font-family: 'mukta-regular';
+    color: $clr-font-gray7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h2 {
+    .card & {
+        font-size: 2rem;
+    }
+
+    .about & {
+        color: $clr-font-gray6;
+    }
+}
+
+h4 {
+    .small-card-details & {
+        font-size: .9rem;
+        // font-family: 'mukta-light';
+    }
+}
+
+hr {
+    width: 100%;
+    opacity: .4;
+}
+
+p {
+    margin: 0;
+
+    .about & {
+        color: $clr-font-gray7;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+
+    .introduction & {
+        height: 100%;
+    }
+
+    &.logo {
+        position: absolute;
+        top: 0;
+        left: 40px;
+
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+
+        @include for-mobile-layout {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .links & {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .card-image & {
+        border-radius: 50%;
+    }
+
+    .hobbies-list & {
+        height: 100%;
+    }
+
+    .project-image & {
+        object-fit: contain;
+        height: 100%;
+    }
+
+    .summary-details & {
+        width: 200px;
+        object-fit: contain;
+        opacity: .3;
+
+        @include for-mobile-layout {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -80%);
+
+            opacity: .1;
+            z-index: -1;
+        }
+    }
+
+    &.footer-icon {
+        width: 35px;
+        object-fit: contain;
+    }
+}
+
+.btn {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.3em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-family: inherit;
+    cursor: pointer;
+
+    &-light {
+        @include btn($type: 'light');
+    }
+
+}
+
+button {
+    &.download-btn {
+        border-radius: 5em;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+}

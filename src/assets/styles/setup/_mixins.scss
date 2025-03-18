@@ -1,0 +1,16 @@
+@mixin for-mobile-layout {
+    @media (max-width: calc($mobile-breakpoint + 40px)) {
+        @content;
+    }
+}
+
+
+@mixin btn($type: regular) {
+    @if $type =='light' {
+        background-color: $clr-bg-light-2;
+
+        &:hover {
+            background-color: darken($clr-bg-light-2, 5%);
+        }
+    }
+}
