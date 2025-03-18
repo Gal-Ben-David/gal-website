@@ -8,6 +8,15 @@
     align-items: center;
 
     background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/v1742221832/gal-intro-main-cover_db5cip.jpg');
+
+    .logo {
+        opacity: 0.2;
+
+        &.fade-in {
+            opacity: 1;
+            transition: opacity 2s ease;
+        }
+    }
 }
 
 .introduction::before {
