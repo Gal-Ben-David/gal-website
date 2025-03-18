@@ -22,6 +22,14 @@ h2 {
     .about & {
         color: $clr-font-gray6;
     }
+
+    .projects & {
+        padding-inline-start: 2.4em;
+
+        @include for-mobile-layout {
+            padding-inline-start: 0;
+        }
+    }
 }
 
 h3 {
