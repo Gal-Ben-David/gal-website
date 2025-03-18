@@ -1,0 +1,42 @@
+.small-card {
+    position: relative;
+
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+
+    width: 18em;
+    height: 8em;
+    padding: .5em;
+    border-radius: 1em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+    transition: .3s ease-in-out;
+
+    .card-image {
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+
+
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .small-card-details {
+        display: grid;
+        gap: .2em;
+        margin-block-start: 2em;
+    }
+
+
+}
+
+.small-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
