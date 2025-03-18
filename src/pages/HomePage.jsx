@@ -2,6 +2,7 @@ import { Intro } from "../cmps/Intro";
 import { About } from '../cmps/About';
 import { Projects } from "../cmps/Projects";
 import { Hobbies } from "../cmps/Hobbies";
+import { Footer } from "../cmps/Footer";
 
 
 export function HomePage() {
@@ -12,6 +13,7 @@ export function HomePage() {
             <About />
             <Projects />
             <Hobbies />
+            <Footer />
         </main>
     )
 }

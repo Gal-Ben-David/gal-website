@@ -1,0 +1,25 @@
+.footer {
+    position: relative;
+    padding: 1em;
+
+    background-color: $clr-bg-beige-1;
+    color: $clr-font-gray6;
+
+    .footer-content {
+        display: flex;
+        gap: 6em;
+        justify-content: center;
+
+        @include for-mobile-layout {
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        &>* {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+
+    }
+}
