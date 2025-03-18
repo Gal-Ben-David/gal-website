@@ -2,7 +2,7 @@ import { LiveWriteEffect } from './LiveWriteEffect'
 
 export function Card({ visible }) {
     return (
-        <section className={`card ${visible && 'fade-in'}`}>
+        <section className={`card ${visible ? 'fade-in' : ''}`}>
             <div className="card-details">
                 <h2>Gal Ben David</h2>
                 <h3>Full Stack Developer</h3>

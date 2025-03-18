@@ -13,7 +13,7 @@
 
     }
 
-    // opacity: 0.2;
+    opacity: 0.2;
     padding: 2em;
     border-radius: 1.5em;
 
@@ -49,10 +49,10 @@
     //     transform: scale(1.02);
     // }
 
-    // &.fade-in {
-    //     opacity: 1;
-    //     transition: opacity 2s ease;
-    // }
+    &.fade-in {
+        opacity: 1;
+        transition: opacity 2s ease;
+    }
 
     .inspiration-sentence {
         position: absolute;
