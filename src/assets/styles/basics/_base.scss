@@ -43,6 +43,11 @@ p {
     }
 }
 
+a {
+    text-decoration: none;
+    color: $clr-font-gray7;
+}
+
 ul {
     list-style: none;
     padding: 0;
