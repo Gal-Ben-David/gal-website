@@ -19,7 +19,7 @@ export function Projects() {
 
     return (
         <section className="projects full main-layout">
-            <h2>Projects</h2>
+            <h2 className="title">Projects</h2>
             <ul className="projects-list">
                 {projectsList.map((item, i) =>
                     <li key={i} className="project">

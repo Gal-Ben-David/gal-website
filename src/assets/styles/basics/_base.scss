@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'noto-sans-regular';
+    font-family: 'roboto-regular';
     color: $clr-font-gray7;
 }
 
@@ -17,6 +17,7 @@ h2 {
     .card & {
         font-size: 2rem;
         margin-block-end: .3em;
+        font-family: 'roboto-regular';
     }
 
     .about & {
@@ -30,9 +31,18 @@ h2 {
             padding-inline-start: 0;
         }
     }
+
+    &.title {
+        font-family: 'noto-sans-regular';
+    }
 }
 
 h3 {
+
+    .card & {
+        font-family: 'roboto-regular';
+    }
+
     .projects & {
         margin-block-end: .8em;
     }
@@ -40,6 +50,7 @@ h3 {
     .small-card-details & {
         line-height: 1.7;
         font-size: 1rem;
+        font-family: 'roboto-regular';
     }
 }
 
