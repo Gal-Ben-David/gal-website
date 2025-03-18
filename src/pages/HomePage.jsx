@@ -1,5 +1,6 @@
 import { Intro } from "../cmps/Intro";
 import { About } from '../cmps/About';
+import { Projects } from "../cmps/Projects";
 
 
 export function HomePage() {
@@ -8,6 +9,7 @@ export function HomePage() {
         <main className="main-layout homepage">
             <Intro />
             <About />
+            <Projects />
         </main>
     )
 }
