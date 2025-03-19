@@ -15,7 +15,7 @@ export function Hobbies() {
             imgUrl: 'https://res.cloudinary.com/dvykycdey/image/upload/v1742219712/yoga_bprhlr.jpg'
         },
         {
-            title: 'Backing',
+            title: 'Baking',
             imgUrl: 'https://res.cloudinary.com/dvykycdey/image/upload/v1742219714/backing_ilvjax.jpg'
         },
         {
