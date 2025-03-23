@@ -43,12 +43,6 @@
         }
     }
 
-    // transition: 1s ease;
-
-    // &:hover {
-    //     transform: scale(1.02);
-    // }
-
     &.fade-in {
         opacity: 1;
         transition: opacity 2s ease;

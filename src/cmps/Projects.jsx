@@ -30,7 +30,7 @@ export function Projects() {
                         </div>
 
                         <a className="project-image" href={item.link} target="_blank">
-                            <img src={item.imgUrl} />
+                            <img loading="lazy" src={item.imgUrl} />
                         </a>
                     </li>
                 )}

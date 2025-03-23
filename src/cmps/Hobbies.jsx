@@ -36,7 +36,7 @@ export function Hobbies() {
                 {hobbiesList.map((item, i) =>
                     <li key={i}>
                         <div className="hobby-image-container">
-                            <img src={item.imgUrl} />
+                            <img loading="lazy" src={item.imgUrl} />
                         </div>
 
                         <p className="hobby-name">{item.title}</p>
