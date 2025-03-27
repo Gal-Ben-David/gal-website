@@ -12,7 +12,7 @@ export function HomePage() {
             <Intro />
             <About />
             <Projects />
-            <Hobbies />
+            {/* <Hobbies /> */}
             <Footer />
         </main>
     )

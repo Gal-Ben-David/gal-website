@@ -16,7 +16,7 @@ export function Intro() {
                 <nav className="nav-links">
                     <a href="#about">About</a>
                     <a href="#projects">Projects</a>
-                    <a href="#hobbies">Hobbies</a>
+                    {/* <a href="#hobbies">Hobbies</a> */}
                 </nav>
             </header>
 

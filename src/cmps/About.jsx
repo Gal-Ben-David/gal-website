@@ -46,7 +46,7 @@ export function About() {
                         <h2 className="title">About me</h2>
                         <p>Hey, I'm Gal, a Frontend / Full Stack Developer with a passion for <span style={{ fontFamily: 'roboto-medium', color: '#444' }}>technology and creativity.</span></p>
                         <p>With experience in both engineering and leadership, I’ve developed strong problem-solving, decision-making, and analytical skills while effectively collaborating with teams.</p>
-                        <p>In my free time, I enjoy pursuing my hobbies—check them out below!</p>
+                        {/* <p>In my free time, I enjoy pursuing my hobbies—check them out below!</p> */}
 
                         <ul className="skills-list">
                             {skillsList.map((item, i) =>
