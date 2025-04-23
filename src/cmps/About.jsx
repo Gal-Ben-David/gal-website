@@ -33,7 +33,7 @@ export function About() {
     ]
 
     const skillsList = [
-        'JavaScript', 'TypeScript', 'React', 'Angular', 'Node.js', 'HTML',
+        'JavaScript', 'TypeScript', 'Python', 'React', 'Next.js', 'Angular', 'Node.js', 'HTML',
         'CSS', 'SASS', 'MongoDB', 'SQL', 'Redux',
     ]
 
@@ -44,8 +44,9 @@ export function About() {
                     <img src="https://res.cloudinary.com/dvykycdey/image/upload/v1742227790/photo2_rvk4rr.png" />
                     <div className="about-me">
                         <h2 className="title">About me</h2>
-                        <p>Hey, I'm Gal, a Frontend / Full Stack Developer with a passion for <span style={{ fontFamily: 'roboto-medium', color: '#444' }}>technology and creativity.</span></p>
-                        <p>With experience in both engineering and leadership, I’ve developed strong problem-solving, decision-making, and analytical skills while effectively collaborating with teams.</p>
+                        <p>Hey, I'm Gal, a Software developer with a passion for <span style={{ fontFamily: 'roboto-medium', color: '#444' }}>technology and creativity.</span></p>
+                        <p>I specialize in frontend development, with solid hands-on experience in backend technologies.</p>
+                        <p>With a background in both engineering and leadership, I’ve developed strong problem-solving, decision-making, and analytical skills while effectively collaborating with teams.</p>
                         {/* <p>In my free time, I enjoy pursuing my hobbies—check them out below!</p> */}
 
                         <ul className="skills-list">

@@ -5,10 +5,10 @@ export function Card({ visible }) {
         <section className={`card ${visible ? 'fade-in' : ''}`}>
             <div className="card-details">
                 <h2>Gal Ben David</h2>
-                <h3>Full Stack Developer</h3>
+                <h3>Software Developer</h3>
 
                 <div className="links">
-                    <a href="/gal-website/file/Gal_Ben_David_Full_Stack_Developer.pdf" target="_blank">
+                    <a href="/gal-website/file/Gal_Ben_David_Software_Developer.pdf" target="_blank">
                         <button className="btn btn-light download-btn">Get my resume</button>
                     </a>
 
