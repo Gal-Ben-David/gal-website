@@ -33,7 +33,7 @@ export function About() {
     ]
 
     const skillsList = [
-        'JavaScript', 'TypeScript', 'Python', 'React', 'Next.js', 'Angular', 'Node.js', 'HTML',
+        'JavaScript', 'TypeScript', 'React', 'Next.js', 'Angular', 'Node.js', 'HTML',
         'CSS', 'SASS', 'MongoDB', 'SQL', 'Redux',
     ]
 
